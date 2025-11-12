@@ -70,8 +70,6 @@ st.markdown("""
     }
     </style>
 """, unsafe_allow_html=True)
-
-    }
     .stButton>button {
         background-color: #2196F3;
         color: white;
