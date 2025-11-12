@@ -21,7 +21,7 @@ st.set_page_config(
 st.markdown("""
 <style>
 .main { background-color: #f5f7fa; }
-h1 { color: #000000; }
+h1 { color: #1e3a8a; }
 p { color: #262730; }
 </style>
 """, unsafe_allow_html=True)
