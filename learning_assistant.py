@@ -17,15 +17,19 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
 st.markdown("""
 <style>
+* {
+color: #262730 !important;
+}
 .main {
 background-color: #f5f7fa;
 }
 h1 {
-color: #1e3a8a;
+color: #1e3a8a !important;
 }
+</style>
+""", unsafe_allow_html=True)
 </style>
 """, unsafe_allow_html=True)
 
