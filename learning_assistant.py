@@ -21,6 +21,7 @@ st.set_page_config(
 )
 
 # Custom CSS for professional UI
+# Custom CSS for professional UI
 st.markdown("""
     <style>
     .main {
@@ -33,6 +34,18 @@ st.markdown("""
         margin: 10px 0;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
+    .stChatMessage[data-testid="user-message"] {
+        background-color: #667eea;
+    }
+    .stChatMessage[data-testid="user-message"] p {
+        color: white !important;
+    }
+    .stChatMessage[data-testid="assistant-message"] {
+        background-color: white;
+    }
+    .stChatMessage[data-testid="assistant-message"] p {
+        color: #262730 !important;
+    }
     .source-box {
         background-color: #e8f4f8;
         border-left: 4px solid #2196F3;
@@ -40,9 +53,24 @@ st.markdown("""
         margin: 10px 0;
         border-radius: 5px;
         font-size: 0.9em;
+        color: #262730 !important;
     }
     h1 {
         color: #1e3a8a;
+    }
+    .stButton>button {
+        background-color: #2196F3;
+        color: white;
+        border-radius: 5px;
+        padding: 10px 24px;
+        border: none;
+    }
+    .stButton>button:hover {
+        background-color: #1976D2;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
     }
     .stButton>button {
         background-color: #2196F3;
